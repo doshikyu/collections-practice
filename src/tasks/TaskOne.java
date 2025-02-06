@@ -8,7 +8,7 @@ public class TaskOne {
         List<Integer> nums = new ArrayList<>(List.of(1, 1, 2, 3, 4, 4, 5, 5, 6, 7));
 
         List<Integer> oddNums = new ArrayList<>();
-        for (Integer num : nums) {
+        for (int num : nums) {
             if (num % 2 == 1) {
                 oddNums.add(num);
             }
